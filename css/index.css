@@ -1,0 +1,99 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+  }
+  
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0069d9;
+  }
+  
+  .actions {
+    text-align: center;
+  }
+  
+  /* Estilos adicionales para una mejor presentación */
+  
+  .container h2 {
+    margin-top: 20px;
+  }
+  
+  table th:first-child,
+  table td:first-child {
+    width: 15%;
+  }
+  
+  table th:last-child,
+  table td:last-child {
+    width: 20%;
+  }
+  th{
+     background-color: rgb(0, 0, 0);
+     color: #f0f0f0;
+  }
+  td{
+    background-color: #a1caf5;
+  }
